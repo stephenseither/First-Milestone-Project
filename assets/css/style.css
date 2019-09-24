@@ -1,0 +1,92 @@
+/*---------------------------BG Colors---------------------- */
+
+.bg-header {
+    background-color: #8a8884;
+}
+
+.about-me {
+background-color: #87acc7;    
+}
+
+.contact-info {
+    background-color: #7395ae;
+    opacity: 0.5;
+    transition: opacity .5s ease-out, font-weight .25s ease-in-out;
+    -moz-transition: opacity .5s ease-out, font-weight .25s ease-in-out;
+    -webkit-transition: opacity .5s ease-out, font-weight .25s ease-in-out;
+    color: #fafafa;
+    font-weight: normal;
+}
+
+.contact-info:hover {
+    opacity: 1.2;
+    font-weight: bold;
+}
+
+
+/*---------------------------Header---------------------- */
+
+.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.name {
+    margin-top: 60px;
+    color: #fff;
+}
+
+.title {
+    color: #e3e1e1;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin-left: 40px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 2px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out, ;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #b8784b;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+
+/*---------------------------About Me---------------------- */
+
+.about-me p {
+    width: 80%;
+    margin-left: 5px;
+}
+
+/*---------------------------Contact Info---------------------- */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .title,
+.personal-info-item .value {
+    display: inline-block;
+    padding-right: 15px;
+}
