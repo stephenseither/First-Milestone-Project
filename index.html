@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Document</title>
 </head>
@@ -15,7 +16,7 @@
     <div class="container">
         <div class="row no-gutters">
             <div class="col">
-                <nav class="navbar navbar-light bg-light navbar-expand-sm no-gutters">
+                <nav class="navbar navbar-light bg-navbar navbar-expand-sm no-gutters">
                     <a href="index.html" class="navbar-brand font-weight-bold">Stephen Seither</a>
 
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +25,8 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav mr-auto">
                             <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="experience.html">Experience</a></li>
+                            <li class="nav-item mr-2"><a class="nav-link" href="experience.html">Resume</a></li>
+                            <li class="nav-item mr-2"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
                             <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
@@ -33,7 +35,7 @@
         </div>
 
 
-        <div class="row rounded-top">
+        <div class="row">
 
             <div class="col bg-header heading">
                 <div class="row">
@@ -73,22 +75,77 @@
     <section class="container">
         <div class="row">
             <div class="col-sm-4 photo">
-                <img src="assets/images/stephen-1.jpg" alt="stephen" class="img-fluid img-responsive rounded py-3 px-2" />
+                <img src="assets/images/stephen-profile.jpg" alt="stephen" class="img-fluid img-responsive rounded py-3 px-2 profile-img" />
+                <div class="contact-info pt-3">
+                    <div class="personal-info-item px-4">
+                        <div class="title">
+                            <i class="fas fa-user-alt"></i>
+                        </div>
+                        <div class="value">
+                            <p>
+                                Stephen Seither
+                            </p>
+                        </div>
+                    </div>
+                    <div class="personal-info-item px-4">
+                        <div class="title">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="value">
+                            <p>
+                                Wisconsin, USA
+                            </p>
+                        </div>
+                    </div>
+                    <div class="personal-info-item px-4">
+                        <div class="title">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="value">
+                            <p>
+                                504-259-6166
+                            </p>
+                        </div>
+                    </div>
+                    <div class="personal-info-item px-4">
+                        <div class="title">
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <div class="value">
+                            <p>
+                                stephen.seither@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                    <button type="button" class="btn btn-secondary btn-lg contact-me-btn" onclick="window.location.href = 'contact.html';">Contact Me</button>
+                    
             </div>
             <div class="col-md-8 about-me">
                 <h2>About Me</h2>
-                <p>I am a skilled and enthusiatic full stack developer seeking employment following recent completion of a full stack web developer bootcamp. I am experienced in HTML, CSS, and JavaScript for front end development. I am also skilled in Python and Django on the back end. </p>
+                <p>I have always had a passion for technology. I decided to pursue my passion full time and enrolled in Code Institute’s Full Stack Software Developer Bootcamp. I am eager to learn and be challenged; and if given the opportunity, I will get
+                    the job done efficiently and well. </p>
+                <p>In my most recent role I worked in business development for a well-known product manufacturer. In that capacity I followed leads, set appointments, explained products, and make quality connections with customers to encourage their business.
+                    This role helped me to become adept at conversing over the phone, multi-tasking, and maintaining customer relationships and thorough product knowledge. During my Master’s degree program, I was able to interact with people from all
+                    around the world. Working and learning with colleagues from more than 15 countries was a test of my interpersonal skills as everyone had unique customs and methods of communication. This opportunity enhanced my teamwork and communication
+                    skills. This experience also helped to increase my passion for working with people from all backgrounds and experiences as coming together and learning from each other’s thoughts and experiences helped us all to grow as individuals
+                    and professionals. During my time as a member of the Texas Maritime Academy, I was able to secure various leadership positions including Battalion Senior Chief. This experience started me on a path of improving my leadership capabilities,
+                    and I look forward to the continual improvement of these and many skills throughout my career.</p>
+                <p>Now, I am a skilled and enthusiastic full stack developer seeking employment following recent completion of a full stack web developer bootcamp. I am experienced in HTML, CSS, and JavaScript for front end development. I am also skilled
+                    in Python and Django on the back end. I am a hard worker and an eager learner who is very excited about the opportunity to start further pursuing my passion and to start to build a meaningful and impactful career.</p>
+                <p>I welcome the chance to speak with you regarding any opportunities to join your team. Please reach out with any questions or if you need any further information. Thank you for your time and consideration.</p>
             </div>
 
         </div>
     </section>
 
     <footer>
-        <div class="container footer">
+        <div class="container footer bg-footer">
             <div class="row">
                 <div class="col-md-4 px-5 py-2">
                     <h5>About Me</h5>
-                    <p class="footer-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sed delectus deleniti ullam obcaecati illo fugiat reiciendis assumenda at repellendus.</p>
+                    <p>I am a skilled and enthusiastic full stack developer. I am experienced in HTML, CSS, JavaScript, Python, and Django.</p>
                 </div>
                 <div class="col-md-4 px-5 py-2">
                     <h5 class="uppercase general-sub">Social</h5>
@@ -115,7 +172,7 @@
                 </div>
                 <div class="col-md-4 px-5 py-2">
                     <h5>Download</h5>
-                    <p class=" footer-p py-3">Need a printable download of my Resume? Download it here!
+                    <p class="py-3">Need a printable download of my Resume? Download it here!
                         <a href="assets/resume/resume.pdf" target="_blank" class="resume-pdf"><i class="fa fa-download" aria-hidden="true"></i>
                         <span class="sr-only">Download link.</span>
                         </a>

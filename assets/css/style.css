@@ -1,48 +1,57 @@
-/*---------------------------Media Queries---------------------- */
-
-@media (hover: none) {
-    .contact-info {
-        background-color: #7395ae;
-        opacity: 1.2;
-    }
-}
-
-
 /*---------------------------BG Colors---------------------- */
 
+body {
+    background-color: #f0f0f0;
+}
+
+.bg-navbar {
+    background-color: #f0f0f0;
+}
+
 .bg-header {
-    background-color: #8a8884;
+    background-color: #565656;
 }
 
 .about-me {
-    background-color: #87acc7;
+    background-color: #caebf2;
 }
 
 .photo {
-    background-color: #87acc7;
+    background-color: #caebf2;
 }
 
 .contact-info {
     background-color: #7395ae;
-    opacity: 0.75;
-    transition: opacity .5s ease-out, font-weight .25s ease-in-out;
-    -moz-transition: opacity .5s ease-out, font-weight .25s ease-in-out;
-    -webkit-transition: opacity .5s ease-out, font-weight .25s ease-in-out;
     color: #fafafa;
     font-weight: normal;
 }
 
-.contact-info:hover {
-    opacity: 1.2;
-    font-weight: bold;
-}
-
 .bg-work-timeline {
-    background-color: #87acc7;
+    background-color: #caebf2;
 }
 
 .bg-school-timeline {
-    background-color: #87acc7;
+    background-color: #caebf2;
+}
+
+.bg-skills {
+    background-color: #caebf2;
+}
+
+.bg-footer {
+    background-color: #565656;
+}
+
+.bg-button {
+    background-color: #caebf2;
+}
+
+.bg-portfolio {
+    background-color: #caebf2;
+}
+
+.bg-contact {
+    background-color: #caebf2;
 }
 
 /*---------------------------Header---------------------- */
@@ -101,14 +110,80 @@
 }
 
 .about-me p {
-    width: 80%;
-    color: #f5f5f5;
+    color: #565656;
+    font-weight: 500;
 }
 
 .photo {
     border-width: 2px 4px;
     border-radius: 40px;
 }
+.profile-img {
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+h2 {
+    color: #76323f;
+    padding-top: 8px;
+}
+
+/*--------------------------Contact Me Page---------------------- */
+
+.contact-page {
+    border-width: 2px 4px;
+    border-radius: 40px;
+    color: #76323f;
+    font-weight: bold;
+}
+
+.title-2 {
+    color: #76323f;
+}
+
+.personal-info-item-2 {
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+.personal-info-item .title-2,
+.personal-info-item .value-2 {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #76323f;
+    text-align: center;
+}
+
 
 /*---------------------------Contact Info---------------------- */
 
@@ -125,17 +200,43 @@
     padding-right: 15px;
 }
 
+button[type="button"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #76323f;
+}
+
+.contact-me-btn {
+    margin-left: 110px;
+}
+
 /*--------------------------Resume---------------------- */
 
 .resume {
-    background-color: #8a8884;
     text-align: center;
     color: #fafafa;
     padding: 8px;
 }
 
+.resume-link {
+    margin-top: 100px;
+    transition: all 0.35s ease-in-out, ;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.resume-link:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+
 .work-history {
-    color: #f5f5f5;
+    color: #565656;
     text-align: center;
 }
 
@@ -147,13 +248,14 @@
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #fafafa;
+    color: #565656;
     border-left: 1px solid;
 }
 
 .timeline-item p {
     padding: 0;
     margin: 0;
+    color: #76323f;
 }
 
 .timeline-item:before {
@@ -178,19 +280,19 @@
     left: -6px;
     border-radius: 12px;
     content: '';
-    background-color: #fafafa;
+    background-color: #565656;
 }
 
 
 .school {
-    color: #f5f5f5;
+    color: #565656;
     text-align: center;
 }
 
 .school-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #fafafa;
+    color: #565656;
     border-left: 1px solid;
 }
 
@@ -203,6 +305,7 @@
 .school-item p {
     padding: 0;
     margin: 0;
+    color: #76323f;
 }
 
 .school-item:before {
@@ -227,27 +330,27 @@
     left: -6px;
     border-radius: 12px;
     content: '';
-    background-color: #fafafa;
+    background-color: #565656;
 }
+
+.skills {
+    color: #565656;
+    text-align: center;
+}
+
+.skills-list {
+    border-width: 2px 4px;
+    border-radius: 40px;
+}
+
 
 /*---------------------------Footer---------------------------*/
 
 .footer {
-    background-color: #525252;
     border-radius: 25px;
+    color: #e3e1e1
 }
 
-.footer-p {
-    text-align: center;
-}
-
-.footer h5,p {
-    color: #e3e1e1;
-}
-
-.footer h5,ul { 
-    text-align: center;
-}
 
 .social-links-footer li a i {
     width: 32px;
@@ -265,7 +368,63 @@
     -o-transition: all 0.35s ease-in-out;
 }
 
+.social-links-footer li a i:hover {
+    background-color: #b8784b;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
 .resume-pdf i {
     color: #f5f5f5;
     padding-left: 8px;
+    transition: all 0.35s ease-in-out, ;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.resume-pdf i:hover {
+    color: #b8784b;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+/*---------------------------Portfolio---------------------------*/
+
+.portfolio {
+    border-width: 2px 4px;
+    border-radius: 40px;
+}
+
+.portfolio-item {
+    transition: all 0.35s ease-in-out, ;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
 }
