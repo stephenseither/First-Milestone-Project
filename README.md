@@ -8,10 +8,10 @@ Stephen Seither
 This project implemented a variety of skill sets to enhance the end user experience. The author's own understanding of both HTML and CSS were accompanied with Bootstrap's CSS and JavaScript CDNs to further enhance the design of the end product. Additionally, FontAwesome and CloudFlare were employed for minor design features. The end goal of the user design was to serve as a showcase and test of the author's abilities and understanding of the technologies and libraries of information that a developer would need to use when creating a website in a busniess setting. 
 
 ## Mockups
-- [Landing Page]
-- [Resume]
-- [Portfolio]
-- [Contact]
+- [Landing Page](https://stephenseither.github.io/First-Milestone_project/assets/mockups/landing-page.pdf)
+- [Resume](https://stephenseither.github.io/First-Milestone_project/assets/mockups/resume.pdf)
+- [Portfolio](https://stephenseither.github.io/First-Milestone_project/assets/mockups/portfolio.pdf)
+- [Contact](https://stephenseither.github.io/First-Milestone_project/assets/mockups/contact.pdf)
 ## Features
 1. <strong>About Me</strong> - This is the landing page for my website. There are many relevant pieces of information on this page including a brief overview of my personality, history, and aspirations.
 
